@@ -38,6 +38,10 @@ Todo documento HTML segue uma estrutura padrão, conforme mostrado no exemplo ab
 </html>
 ```
 
+Estrutura exemplo:
+![Page Structure](../assets/img/html-page-structure.png)
+
+
 !!! tip "Dica"
     Sempre utilize `<!DOCTYPE html>` no início do documento para garantir a compatibilidade com os navegadores modernos.
     
