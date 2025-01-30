@@ -2,9 +2,9 @@
 
 ## 1. Introdução
 
-O **HTML (HyperText Markup Language)** é a espinha dorsal da World Wide Web, servindo como a linguagem padrão para criar e estruturar páginas web. 
+O **HTML (HyperText Markup Language)** é a espinha dorsal da World Wide Web, servindo como a linguagem padrão para criar e estruturar páginas web.  
 
-Desde sua criação, o HTML passou por inúmeras revisões e melhorias, adaptando-se às crescentes demandas da tecnologia e dos usuários. 
+Desde sua criação, o HTML passou por inúmeras revisões e melhorias, adaptando-se às crescentes demandas da tecnologia e dos usuários.  
 
 Este documento explora a história e a evolução do HTML, destacando seus principais marcos e inovações.
 
@@ -18,9 +18,12 @@ O HTML foi criado por **Tim Berners-Lee** em 1989 enquanto trabalhava no CERN (O
 
 Inicialmente desenvolvido como uma forma de facilitar a troca de documentos entre pesquisadores, o HTML permitia a criação de páginas interligadas por meio de hiperlinks, estabelecendo as bases para a World Wide Web.
 
+!!! info "Info"
+    O primeiro site da história ainda está acessível e pode ser visto em sua versão original: [https://info.cern.ch](https://info.cern.ch)  
+
 ### 2.2. Primeira Especificação
 
-Em 1991, Berners-Lee publicou a primeira especificação do HTML, que incluía elementos básicos como `<html>`, `<head>`, `<body>`, `<p>`, `<a>`, `<img>`, entre outros. 
+Em 1991, Berners-Lee publicou a primeira especificação do HTML, que incluía elementos básicos como `<html>`, `<head>`, `<body>`, `<p>`, `<a>`, `<img>`, entre outros.  
 
 Essa versão inicial permitia a criação de documentos simples, focados na apresentação de texto e imagens.
 
@@ -28,37 +31,39 @@ Essa versão inicial permitia a criação de documentos simples, focados na apre
 
 ### 3.1. HTML 2.0 (1995)
 
-Em 1995, o HTML 2.0 foi lançado como a primeira versão padronizada pelo **IETF (Internet Engineering Task Force)**. 
+Em 1995, o HTML 2.0 foi lançado como a primeira versão padronizada pelo **IETF (Internet Engineering Task Force)**.  
 
 Esta versão formalizou muitos dos elementos existentes e introduziu novos, como formulários (`<form>`, `<input>`, `<textarea>`, etc.), permitindo a interação dos usuários com as páginas web.
 
+!!! tip "Dica"
+    Os formulários revolucionaram a web ao possibilitar **login de usuários**, **pesquisas**, **cadastros**, e **e-commerce**.
+
 ### 3.2. HTML 3.2 (1997)
 
-Desenvolvido pelo **W3C (World Wide Web Consortium)**, o HTML 3.2 trouxe melhorias significativas, incluindo suporte para scripts (como JavaScript), tabelas (`<table>`), e elementos de apresentação mais avançados. 
+Desenvolvido pelo **W3C (World Wide Web Consortium)**, o HTML 3.2 trouxe melhorias significativas, incluindo suporte para **scripts (como JavaScript)**, **tabelas (`<table>`)**, e elementos de apresentação mais avançados.  
 
-Essa versão buscou enriquecer a experiência visual e interativa dos usuários.
+!!! warning "Atenção"
+    O HTML 3.2 introduziu muitos elementos para formatação, como `<font>`, `<center>` e `<bgcolor>`, que foram **descontinuados no HTML5**. Hoje, a estilização deve ser feita com **CSS**.
 
 ### 3.3. HTML 4.0 e 4.01 (1997-1999)
 
-O HTML 4.0, lançado em dezembro de 1997, enfatizou a separação entre conteúdo e apresentação, promovendo o uso de **CSS (Cascading Style Sheets)** para estilização. 
+O HTML 4.0, lançado em dezembro de 1997, enfatizou a **separação entre conteúdo e apresentação**, promovendo o uso de **CSS (Cascading Style Sheets)** para estilização.  
 
-Introduziu os elementos `<div>` e `<span>` para organização e estilização do conteúdo, permitindo maior flexibilidade na personalização da página. 
+Introduziu os elementos `<div>` e `<span>` para organização e estilização do conteúdo, permitindo maior flexibilidade na personalização da página.  
 
-O `<div>` é utilizado como um contêiner genérico para agrupar blocos de conteúdo, facilitando o layout e aplicação de estilos CSS, enquanto o `<span>` é um elemento inline útil para estilizar partes específicas do texto sem quebrar a estrutura. 
-
-Em 1999, o HTML 4.01 foi lançado como uma revisão menor, corrigindo erros e melhorando a consistência das especificações.
+!!! tip "Dica"
+    A separação entre **HTML (estrutura)** e **CSS (estilo)** continua sendo uma **boa prática** essencial no desenvolvimento web moderno.
 
 ### 3.4. XHTML 1.0 (2000)
 
-O XHTML 1.0 representou uma tentativa de reformular o HTML 4.01 usando a sintaxe do **XML (eXtensible Markup Language)**. 
+O XHTML 1.0 representou uma tentativa de reformular o HTML 4.01 usando a sintaxe do **XML (eXtensible Markup Language)**.  
 
-Isso visava tornar o HTML mais rigoroso e compatível com outras tecnologias baseadas em XML. 
-
-No entanto, a adoção do XHTML enfrentou desafios devido à sua complexidade e restrições.
+!!! warning "Atenção"
+    O XHTML exigia **fechamento obrigatório de todas as tags** e **sensibilidade a maiúsculas e minúsculas**, tornando a adoção mais complexa.  
 
 ### 3.5. Transição para HTML5
 
-A partir de meados dos anos 2000, a comunidade web começou a trabalhar em uma nova versão do HTML que incorporasse as inovações tecnológicas emergentes e resolvesse as limitações das versões anteriores. 
+A partir de meados dos anos 2000, a comunidade web começou a trabalhar em uma nova versão do HTML que incorporasse as inovações tecnológicas emergentes e resolvesse as limitações das versões anteriores.  
 
 Esse esforço culminou no desenvolvimento do **HTML5**.
 
@@ -66,45 +71,28 @@ Esse esforço culminou no desenvolvimento do **HTML5**.
 
 ### 4.1. Objetivos do HTML5
 
-Lançado oficialmente em **2014**, o HTML5 foi projetado para ser mais robusto de forma semântica e capaz de suportar aplicações web modernas. 
+Lançado oficialmente em **2014**, o HTML5 foi projetado para ser mais robusto de forma semântica e capaz de suportar aplicações web modernas.  
 
-Seus principais objetivos incluíam:
+| **Recurso**               | **Descrição**                                                                                   |
+| ------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Melhoria da Semântica** | Introdução de novos elementos como `<header>`, `<footer>`, `<article>`, `<section>`, e `<nav>`. |
+| **Multimídia Nativa**     | Suporte para `<audio>` e `<video>` sem necessidade de plugins externos.                         |
+| **Gráficos e Animações**  | Suporte ao `<canvas>` para gráficos e animações 2D dinâmicos.                                   |
+| **APIs e Integrações**    | APIs para geolocalização, armazenamento local e comunicação em tempo real.                      |
 
-| **Recurso**               | **Descrição**                                                                                                                                                                |
-| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Melhoria da Semântica** | Introdução de novos elementos semânticos como `<header>`, `<footer>`, `<article>`, `<section>`, e `<nav>`, que facilitam a estruturação do conteúdo.                         |
-| **Multimídia Nativa**     | Inclusão de elementos `<audio>` e `<video>` para incorporar mídia sem a necessidade de plugins externos.                                                                     |
-| **Gráficos e Animações**  | Suporte ao `<canvas>` para desenho dinâmico e gráficos 2D.                                                                                                                   |
-| **Formulários Avançados** | Novos tipos de campos de formulário (como `email`, `date`, `number`) e atributos que melhoram a validação e a experiência do usuário.                                        |
-| **APIs e Integrações**    | Introdução de várias APIs (Application Programming Interfaces) que permitem funcionalidades avançadas, como geolocalização, armazenamento local e comunicação em tempo real. |
-
-### 4.2. Benefícios do HTML5 
-
-| **Recurso**            | **Descrição**                                                                                                |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------ |
-| **Melhor Performance** | Carregamento mais rápido e melhor desempenho das páginas web.                                                |
-| **Responsividade**     | Facilita o desenvolvimento de sites responsivos que se adaptam a diferentes dispositivos e tamanhos de tela. |
-| **Acessibilidade**     | Melhoria na acessibilidade para usuários com deficiências, graças aos elementos semânticos.                  |
-| **Interatividade**     | Suporte aprimorado para interatividade e aplicações web ricas.                                               |
+!!! tip "Dica"
+    O HTML5 eliminou a necessidade do **Flash**, que foi oficialmente descontinuado em 2020.
 
 ## 5. O Futuro do HTML
 
-O HTML continua a evoluir, adaptando-se às necessidades da web moderna. 
+O HTML continua a evoluir, adaptando-se às necessidades da web moderna.  
 
-A comunidade do W3C e outras organizações trabalham constantemente em novas especificações e melhorias. 
+!!! info "Info"
+    O HTML está sempre evoluindo, mas sua base **continua simples e acessível para todos**.
 
-Algumas das tendências e áreas de foco para o futuro incluem:
+## 6. Referências  
 
-| **Recurso**                       | **Descrição**                                                                                                                         |
-| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **Web Semântica**                 | Maior integração com tecnologias de inteligência artificial e aprendizado de máquina para tornar a web mais inteligente e adaptativa. |
-| **Realidade Aumentada e Virtual** | Suporte aprimorado para experiências imersivas diretamente no navegador.                                                              |
-| **Performance e Segurança**       | Continuação do aprimoramento na eficiência e na proteção contra ameaças cibernéticas.                                                 |
-| **Integração com IoT**            | Facilitar a comunicação e a interação com dispositivos de Internet das Coisas.                                                        |
+- **Tim Berners-Lee**, [História da Web](https://www.w3.org/History.html) 
+- **W3C**, [Especificações do HTML5](https://www.w3.org/TR/html5/)  
+- **MDN Web Docs**, [Guia de HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)  
 
-## 6. Referências
-
-- **Tim Berners-Lee**, [História da Web](https://www.w3.org/History.html)
-- **W3C**, [Especificações do HTML5](https://www.w3.org/TR/html5/)
-
--  **Mozilla Developer Network (MDN)**, [Guia de HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)

@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-HTML (HyperText Markup Language) é a linguagem padrão para criação de páginas web. 
+HTML (HyperText Markup Language) é a linguagem padrão para criação de páginas web.
 
 Ele define a estrutura de um documento web por meio de elementos e tags que organizam e apresentam o conteúdo.
 
@@ -38,15 +38,12 @@ Todo documento HTML segue uma estrutura padrão, conforme mostrado no exemplo ab
 </html>
 ```
 
-Estrutura exemplo:
-![Page Structure](../assets/img/html-page-structure.png)
-
-
 !!! tip "Dica"
     Sempre utilize `<!DOCTYPE html>` no início do documento para garantir a compatibilidade com os navegadores modernos.
     
 !!! tip "Dica"
     Utilize sempre a tag `<meta charset="UTF-8">` no `<head>` para garantir a correta codificação dos caracteres.
+
 ### 4.2 Elementos Essenciais
 
 Os elementos essenciais de um documento HTML incluem:
@@ -64,18 +61,13 @@ Os elementos essenciais de um documento HTML incluem:
 
 As tags de texto são utilizadas para definir hierarquia e estilo:
 
-Claro! Vou combinar todos os elementos fornecidos em uma única tabela para facilitar a visualização:
-
-| **Elemento**    | **Descrição**                                                                                                                                                        |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `<html>`        | Envolve todo o conteúdo da página web, definindo o início e o fim do documento HTML.                                                                                 |
-| `<head>`        | Contém informações que não são exibidas diretamente na página, como metadados, links para arquivos de estilo (CSS) e scripts (JavaScript), além do título da página. |
-| `<body>`        | Abriga todo o conteúdo que será exibido aos usuários, incluindo textos, imagens, vídeos, links, etc.                                                                 |
-| `<h1>` a `<h6>` | São utilizados para definir títulos e subtítulos, onde `<h1>` representa o nível mais alto (mais importante) e `<h6>` o mais baixo.                                  |
-| `<p>`           | Serve para estruturar textos em parágrafos, facilitando a leitura e organização do conteúdo.                                                                         |
-| `<span>`        | Um elemento inline usado para aplicar estilos ou manipular partes específicas do texto sem quebrar o fluxo do conteúdo.                                              |
-| `<strong>`      | Indica que o texto tem forte importância, geralmente renderizado em negrito pelos navegadores.                                                                       |
-| `<em>`          | Denota ênfase no texto, frequentemente exibido em itálico, sugerindo uma entonação diferenciada na leitura.                                                          |
+| **Elemento**    | **Descrição**                                                                        |
+| --------------- | ------------------------------------------------------------------------------------ |
+| `<h1>` a `<h6>` | Definem títulos e subtítulos. `<h1>` é o mais importante, `<h6>` o menos importante. |
+| `<p>`           | Cria parágrafos.                                                                     |
+| `<span>`        | Elemento inline para aplicação de estilos ou manipulação de partes do texto.         |
+| `<strong>`      | Texto em negrito para dar ênfase.                                                    |
+| `<em>`          | Texto em itálico para denotar ênfase leve.                                           |
 
 !!! warning "Atenção"
     Evite usar `<h1>` mais de uma vez na mesma página. Utilize títulos em ordem hierárquica para melhor acessibilidade.
@@ -83,15 +75,12 @@ Claro! Vou combinar todos os elementos fornecidos em uma única tabela para faci
 ### 4.4 Listas
 
 HTML permite a criação de listas ordenadas e não ordenadas:
-Claro! Vou atualizar a tabela para incluir os novos elementos que você forneceu. Além disso, atualizarei a **Descrição Detalhada dos Elementos** para abranger todos os itens listados até agora.
 
-### Tabela Atualizada dos Elementos HTML
-
-| **Elemento** | **Descrição**                                                                                                             |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| `<ul>`       | Utilizado para criar uma lista não ordenada (com marcadores). É ideal para itens que não seguem uma sequência específica. |
-| `<ol>`       | Utilizado para criar uma lista ordenada (numerada). É apropriado para itens que seguem uma sequência ou ordem lógica.     |
-| `<li>`       | Representa um item dentro de uma lista (`<ul>` ou `<ol>`). Cada `<li>` define um ponto ou entrada na lista.               |
+| **Elemento** | **Descrição**                                                                      |
+| ------------ | ---------------------------------------------------------------------------------- |
+| `<ul>`       | Lista não ordenada (com marcadores). Ideal para itens sem sequência específica.    |
+| `<ol>`       | Lista ordenada (numerada). Usada para sequências lógicas.                          |
+| `<li>`       | Item dentro de uma lista (`<ul>` ou `<ol>`). Cada `<li>` define um ponto na lista. |
 
 Exemplo:
 ```html
@@ -114,20 +103,19 @@ A tag `<a>` é usada para criar links:
 ```
 
 !!! tip "Dica"
-    Sempre utilize o atributo `target="_blank"` ao criar links externos para abrir em uma nova aba.
+    Utilize `target="_blank"` para abrir links externos em uma nova aba.
 
 ### 4.6 Imagens e Mídia
 
 HTML permite incorporar imagens e mídia:
-Claro! Aqui está a nova tabela contendo apenas os elementos `<img>`, `<audio>` e `<video>`:
 
-| **Elemento** | **Descrição**                                                                                                                                                                                  |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `<img>`      | Utilizado para inserir imagens na página web. É um elemento vazio que requer o atributo `src` para especificar o caminho da imagem e o atributo `alt` para fornecer uma descrição alternativa. |
-| `<audio>`    | Permite a reprodução de arquivos de áudio na página. Pode incluir controles de reprodução e suporta diferentes formatos de áudio.                                                              |
-| `<video>`    | Usado para incorporar vídeos na página web. Suporta múltiplas fontes de vídeo e pode incluir controles de reprodução, bem como opções para reprodução automática, mudo, entre outros.          |
+| **Elemento** | **Descrição**                                                                                |
+| ------------ | -------------------------------------------------------------------------------------------- |
+| `<img>`      | Insere imagens. O atributo `src` define o caminho e `alt` fornece uma descrição alternativa. |
+| `<audio>`    | Reproduz arquivos de áudio. Pode incluir controles e suporta diferentes formatos.            |
+| `<video>`    | Incorpora vídeos. Pode incluir controles, autoplay e opções de mudo.                         |
 
-Exemplo de uso:
+Exemplo:
 ```html
 <img src="imagem.jpg" alt="Descrição da imagem">
 <audio controls>
@@ -143,7 +131,7 @@ Exemplo de uso:
 
 ## 5. Guia de Uso
 
-Para utilizar HTML, basta criar um arquivo com extensão `.html` e abri-lo em um navegador. 
+Para utilizar HTML, basta criar um arquivo com extensão `.html` e abri-lo em um navegador.
 
 Recomendamos editores de código como Visual Studio Code ou Sublime Text para facilitar o desenvolvimento.
 
@@ -153,6 +141,4 @@ Recomendamos editores de código como Visual Studio Code ou Sublime Text para fa
 ## 6. Referências
 - [Documentação Oficial do HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [W3Schools - HTML](https://www.w3schools.com/html/)
-
-
 
