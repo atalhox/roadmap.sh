@@ -1,11 +1,13 @@
-# Documentação: HTML para Desenvolvedores Full Stack
+# Introdução ao HTML
 
 ## 1. Introdução
+
 O HTML (HyperText Markup Language) é a base da estrutura de qualquer página web. Ele define a organização do conteúdo e permite a interação com outros elementos da web, como CSS e JavaScript. 
 
 Para um desenvolvedor Full Stack, é essencial compreender não apenas a sintaxe básica do HTML, mas também suas boas práticas e otimizações para garantir acessibilidade, desempenho e integração com tecnologias modernas.
 
 ## 2. Objetivo
+
 Este documento tem como objetivo fornecer um guia estruturado sobre HTML, abordando desde conceitos básicos até técnicas avançadas, boas práticas e dicas para um desenvolvedor Full Stack.
 
 ## 3. Público-alvo
